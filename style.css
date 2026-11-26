@@ -133,3 +133,4 @@ dt{font-weight:600;color:var(--mute);font-size:12px;text-transform:uppercase;let
 .x{position:absolute;top:10px;right:10px;z-index:3;width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.95);font-size:24px;line-height:36px}
 @media(min-width:760px){.sheet{align-items:center}.sheet-card{border-radius:20px}}
 @keyframes fade{from{opacity:0}}@keyframes up{from{transform:translateY(40px);opacity:0}}
+.badge.now{width:auto;padding:0 10px;background:var(--ink)}.badge.now b{font-size:16px}.badge.now span{font-size:9px}

@@ -21,7 +21,7 @@ function when(e){
   if(e.start<=TODAY)return "On now · through "+fmt(endOf(e));
   return fmt(e.start)+" to "+fmt(endOf(e));
 }
-function badge(e){const d=e.start<TODAY&&endOf(e)>=TODAY?D(TODAY):D(e.start);
+function badge(e){if(e.start<TODAY&&endOf(e)>=TODAY)return `<div class="badge now"><b>NOW</b><span>to ${fmt(endOf(e))}</span></div>`;const d=D(e.start);
   return `<div class="badge"><b>${d.getDate()}</b><span>${d.toLocaleDateString("en-US",{month:"short"})}</span></div>`}
 function pic(e,cls=""){
   const fb=`<div class="fb c-${esc((e.category||"x").replace(/\W/g,"").toLowerCase())}"><span>${esc(e.category||"")}</span></div>`;
@@ -55,10 +55,10 @@ function renderWeekend(){
   $("#weekend").innerHTML=`<div class="wk-head"><h2>${label}</h2><span>${fmt(a,{month:"short",day:"numeric"})} to ${fmt(b,{month:"short",day:"numeric"})}</span></div><div class="rail">${list.slice(0,8).map(e=>card(e,true)).join("")}</div>`;
 }
 function renderDays(){
-  const up=upcoming(); let h=`<button class="day any ${!st.day?"on":""}" data-day="">Any<br>day</button>`;
-  for(let n=0;n<42;n++){const d=addDays(TODAY,n),dt=D(d),c=up.filter(e=>onDay(e,d)).length;
+  const up=upcoming(); const starts=d=>up.filter(e=>e.start===d||(d===TODAY&&e.start<TODAY)).length; let h=`<button class="day any ${!st.day?"on":""}" data-day="">Any<br>day</button>`;
+  for(let n=0;n<42;n++){const d=addDays(TODAY,n),dt=D(d),c=up.filter(e=>onDay(e,d)).length,sc=starts(d);
     h+=`<button class="day ${st.day===d?"on":""} ${[0,6].includes(dt.getDay())?"we":""} ${dt.getDate()===1||n===0?"mstart":""}" data-day="${d}" ${c?"":"disabled"}>
-     <small>${n===0?"Today":dt.toLocaleDateString("en-US",{weekday:"short"})}</small><b>${dt.getDate()}</b><em>${dt.getDate()===1||n===0?dt.toLocaleDateString("en-US",{month:"short"}):""}</em><span class="dots">${"•".repeat(Math.min(c,4))}</span></button>`}
+     <small>${n===0?"Today":dt.toLocaleDateString("en-US",{weekday:"short"})}</small><b>${dt.getDate()}</b><em>${dt.getDate()===1||n===0?dt.toLocaleDateString("en-US",{month:"short"}):""}</em><span class="dots">${"•".repeat(Math.min(sc,4))}</span></button>`}
   $("#days").innerHTML=h;
 }
 function chipRow(el,items){el.innerHTML=items.map(([k,v,label,on])=>`<button class="chip ${on?"on":""}" data-k="${k}" data-v="${esc(v)}">${label}</button>`).join("")}
