@@ -100,11 +100,10 @@ function drawMap(list){
     L.marker([e.lat,e.lng],{icon:L.divIcon({className:"pin"+(isBook(e)?" hot":""),html:`<b>${D(e.start<TODAY?TODAY:e.start).getDate()}</b>`,iconSize:[34,34],iconAnchor:[17,34]})})
      .addTo(layer).bindPopup(`<b>${esc(e.title)}</b><br>${esc(when(e))}<br><a href="#" data-open="${esc(e.id)}">Details</a>`)});
   if(pts.length)map.fitBounds(pts,{padding:[30,30],maxZoom:13});
-  setTimeout(()=>map.invalidateSize(),50);
+  requestAnimationFrame(()=>{map.invalidateSize();if(pts.length)map.fitBounds(pts,{padding:[30,30],maxZoom:13})});
 }
-function render(){renderDays();renderChips();renderList();renderArchive();
-  $("#view").querySelectorAll("button").forEach(b=>b.classList.toggle("on",b.dataset.view===st.view));
-  $("#map").hidden=st.view!=="map";}
+function render(){$("#map").hidden=st.view!=="map";renderDays();renderChips();renderList();renderArchive();
+  $("#view").querySelectorAll("button").forEach(b=>b.classList.toggle("on",b.dataset.view===st.view));}
 function ics(e){
   const d=s=>s.replace(/-/g,""),x=s=>String(s||"").replace(/[\\,;]/g,m=>"\\"+m).replace(/\n/g,"\\n");
   const body=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//outdmv//EN","BEGIN:VEVENT",`UID:${e.id}@outdmv`,`DTSTAMP:${d(TODAY)}T120000Z`,
