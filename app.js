@@ -93,7 +93,7 @@ function renderArchive(){
 function drawMap(list){
   if(!window.L){$("#map").innerHTML="<p class='empty'>The map couldn't load.</p>";return}
   if(!map){map=L.map("map",{scrollWheelZoom:false}).setView([38.93,-77.03],10);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",{attribution:'&copy; OpenStreetMap &copy; CARTO',maxZoom:18}).addTo(map);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors',maxZoom:19}).addTo(map);
     layer=L.layerGroup().addTo(map)}
   layer.clearLayers();const pts=[];
   list.filter(e=>e.lat&&e.lng).forEach(e=>{pts.push([e.lat,e.lng]);
