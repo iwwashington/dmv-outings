@@ -10,18 +10,19 @@ const WHO={family:"Family",friends:"Friends",couples:"Date night",solo:"Solo"};
 const st={q:"",day:null,who:"All",cat:"All",free:false,book:false,saved:false,view:"list"};
 let EV=[],map,layer;
 
-const endOf=e=>e.end||e.start;
+const endOf=e=>e.ongoing?"9999-12-31":(e.end||e.start);
 const isFree=e=>/^free/i.test(e.price||"");
 const isBook=e=>/book now/i.test(e.urgency||"");
 const onDay=(e,d)=>e.start<=d&&endOf(e)>=d;
 const upcoming=()=>EV.filter(e=>endOf(e)>=TODAY);
 const past=()=>EV.filter(e=>endOf(e)<TODAY).sort((a,b)=>b.start.localeCompare(a.start));
 function when(e){
+  if(e.ongoing)return e.recur||"Ongoing";
   if(e.start===endOf(e))return fmt(e.start,{weekday:"short",month:"short",day:"numeric"});
   if(e.start<=TODAY)return "On now · through "+fmt(endOf(e));
   return fmt(e.start)+" to "+fmt(endOf(e));
 }
-function badge(e){if(e.start<TODAY&&endOf(e)>=TODAY)return `<div class="badge now"><b>NOW</b><span>to ${fmt(endOf(e))}</span></div>`;const d=D(e.start);
+function badge(e){if(e.ongoing&&e.start<=TODAY)return `<div class="badge now"><b>NOW</b><span>ongoing</span></div>`;if(e.start<TODAY&&endOf(e)>=TODAY)return `<div class="badge now"><b>NOW</b><span>to ${fmt(endOf(e))}</span></div>`;const d=D(e.start);
   return `<div class="badge"><b>${d.getDate()}</b><span>${d.toLocaleDateString("en-US",{month:"short"})}</span></div>`}
 function pic(e,cls=""){
   const fb=`<div class="fb c-${esc((e.category||"x").replace(/\W/g,"").toLowerCase())}"><span>${esc(e.category||"")}</span></div>`;
@@ -33,7 +34,7 @@ function card(e,big){
    <div class="pwrap">${pic(e)}${badge(e)}<button class="heart ${s?"on":""}" data-save="${esc(e.id)}" aria-label="Save">${s?"♥":"♡"}</button>
    ${gone?`<span class="flag past">Passed</span>`:isBook(e)?`<span class="flag hot">Book now</span>`:/decide/i.test(e.urgency)?`<span class="flag warm">Decide this week</span>`:""}</div>
    <div class="body"><p class="cat">${esc(e.category)} · ${esc(e.area)}</p><h3>${esc(e.title)}</h3>
-   <p class="when">${esc(when(e))}${e.time&&e.start===endOf(e)?` · ${esc(e.time)}`:""}</p>
+   <p class="when">${esc(when(e))}${e.time&&(e.ongoing||e.start===endOf(e))?` · ${esc(e.time)}`:""}</p>
    <p class="foot"><span class="price ${isFree(e)?"free":""}">${esc(e.price||"")}</span>${(e.fit||[]).map(f=>`<i>${WHO[f]||f}</i>`).join("")}</p></div></article>`;
 }
 function match(e){
@@ -142,6 +143,6 @@ document.addEventListener("keydown",e=>{if(e.key==="Escape")close()});
 $("#q").addEventListener("input",e=>{st.q=e.target.value;renderList();renderArchive()});
 fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   EV=d.events;$("#updated").textContent=fmt(d.updated,{month:"long",day:"numeric",year:"numeric"});
-  $("#metaLine").textContent=`${upcoming().length} upcoming · ${past().length} in the archive`;
+  $("#metaLine").textContent=`${upcoming().length} upcoming`;
   renderWeekend();render();
 });

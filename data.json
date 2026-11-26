@@ -2,401 +2,6 @@
  "updated": "2026-11-26",
  "events": [
   {
-   "id": "cox-farms-fall-festival-2026",
-   "title": "Cox Farms Fall Festival",
-   "start": "2026-10-11",
-   "end": "2026-11-08",
-   "time": "10 a.m.–5 p.m. (closing weekend Nov. 7–8)",
-   "venue": "Cox Farms (15621 Braddock Rd)",
-   "area": "Centreville, VA",
-   "price": "$15–$25 online; under 2 free",
-   "fit": [
-    "family",
-    "friends"
-   ],
-   "category": "Festival",
-   "why": "Northern Virginia's classic fall festival with hayrides, farm animals, giant slides and cider doughnuts through its closing weekend.",
-   "urgency": "Book now",
-   "source": "https://coxfarmsva.com/fall-festival/fall-festival-tickets/",
-   "image": "https://coxfarmsva.com/wp-content/uploads/2024/02/fall-festival-banner.jpg",
-   "added": "2026-10-11",
-   "lat": 38.834,
-   "lng": -77.446,
-   "verified": ""
-  },
-  {
-   "id": "28th-bethesda-row-arts-festival-2026",
-   "title": "28th Bethesda Row Arts Festival",
-   "start": "2026-10-17",
-   "end": "2026-10-18",
-   "time": "Sat 11 a.m.–6 p.m.; Sun 10 a.m.–5 p.m.",
-   "venue": "Bethesda Row (Bethesda Ave, Elm St & Woodmont Ave)",
-   "area": "Bethesda, MD",
-   "price": "Free",
-   "fit": [
-    "family",
-    "couples"
-   ],
-   "category": "Arts",
-   "why": "One of the region's top juried outdoor art shows, with 180-plus artists along walkable streets lined with restaurants.",
-   "urgency": "Safe to wait",
-   "source": "https://www.eastcityart.com/openings-and-events/28braf/",
-   "image": "https://www.eastcityart.com/wp-content/uploads/2026/08/OtTWm2yKCgfCTiShPORnYm1IvXXDkYvTPzFHIWc0v1o.jpg",
-   "added": "2026-10-11",
-   "lat": 38.981,
-   "lng": -77.097,
-   "verified": ""
-  },
-  {
-   "id": "howard-university-homecoming-whut-famfest-and-international-yardfest-2026",
-   "title": "Howard University Homecoming: WHUT FamFest & International Yardfest",
-   "start": "2026-10-17",
-   "end": "2026-10-17",
-   "time": "FamFest 11 a.m.–3 p.m.; Yardfest all afternoon",
-   "venue": "Howard University, The Yard (2400 6th St NW)",
-   "area": "Shaw / Howard University, DC",
-   "price": "Free",
-   "fit": [
-    "family",
-    "friends",
-    "solo"
-   ],
-   "category": "Festival",
-   "why": "A landmark HBCU homecoming pairing a kid-friendly family festival with a big afternoon of live music on the Yard.",
-   "urgency": "Decide this week",
-   "source": "https://homecoming.howard.edu/events",
-   "image": "https://localist-images.azureedge.net/photos/50949659359877/card/0c7d663b4d15bd903cec072a9ec0f8b53af380ea.jpg",
-   "added": "2026-10-11",
-   "lat": 38.922,
-   "lng": -77.02,
-   "verified": ""
-  },
-  {
-   "id": "kingman-island-friends-and-family-day-2026",
-   "title": "Kingman Island Friends & Family Day",
-   "start": "2026-10-17",
-   "end": "2026-10-17",
-   "time": "11 a.m.–3 p.m.",
-   "venue": "Kingman & Heritage Islands Park (575 Oklahoma Ave NE)",
-   "area": "Northeast DC",
-   "price": "Free; RSVP requested",
-   "fit": [
-    "family",
-    "friends"
-   ],
-   "category": "Outdoors",
-   "why": "A relaxed river-island festival with guided nature and bird walks, acoustic music and picnicking on flat, stroller-friendly trails.",
-   "urgency": "Safe to wait",
-   "source": "https://www.kingmanisland.com/friends-family-day",
-   "image": "https://static1.squarespace.com/static/60300e73eaa16a54d368dfa5/t/6ab695a044aea31d23e1ed91/1790350752905/KFFD+2026+Graphic+Final.png?format=1500w",
-   "added": "2026-10-11",
-   "lat": 38.898,
-   "lng": -76.964,
-   "verified": ""
-  },
-  {
-   "id": "peoplecon-3-a-designed-in-the-dmv-game-market-2026",
-   "title": "PeopleCon 3: A Designed in the DMV Game Market",
-   "start": "2026-10-17",
-   "end": "2026-10-17",
-   "time": "Noon–5 p.m. (talk at 2:30 p.m.)",
-   "venue": "People's Book (7014-A Westmoreland Ave)",
-   "area": "Takoma Park, MD",
-   "price": "Free to browse",
-   "fit": [
-    "solo",
-    "friends",
-    "family"
-   ],
-   "category": "Market",
-   "why": "An indie tabletop game market showcasing local designers and zines, plus an afternoon talk on games and Supreme Court history.",
-   "urgency": "Safe to wait",
-   "source": "https://mainstreettakoma.org/event/peoplecon-3-a-designed-in-the-dmv-game-market/",
-   "image": "",
-   "added": "2026-10-15",
-   "lat": 38.973,
-   "lng": -77.012,
-   "verified": ""
-  },
-  {
-   "id": "shipgarten-oktoberfest-renaissance-festival-2026",
-   "title": "Shipgarten Oktoberfest Renaissance Festival",
-   "start": "2026-10-17",
-   "end": "2026-10-17",
-   "time": "1–6 p.m.",
-   "venue": "Shipgarten (7581 Colshire Dr)",
-   "area": "McLean, VA",
-   "price": "Free admission; food and drink extra",
-   "fit": [
-    "family",
-    "friends"
-   ],
-   "category": "Food & drink",
-   "why": "An outdoor beer garden festival with medieval flair, costumed characters, lawn games and food tents on dog-friendly turf.",
-   "urgency": "Safe to wait",
-   "source": "https://shipgarten.com/events/",
-   "image": "https://shipgarten.com/wp-content/uploads/2020/12/cropped-Shipgarten-Logo.png",
-   "added": "2026-10-15",
-   "lat": 38.924,
-   "lng": -77.211,
-   "verified": ""
-  },
-  {
-   "id": "ward-4-family-fun-day-2026",
-   "title": "Ward 4 Family Fun Day",
-   "start": "2026-10-17",
-   "end": "2026-10-17",
-   "time": "Noon–4 p.m.",
-   "venue": "Riggs LaSalle Recreation Center (501 Riggs Rd NE)",
-   "area": "Lamond-Riggs, DC",
-   "price": "Free",
-   "fit": [
-    "family",
-    "solo"
-   ],
-   "category": "Kids",
-   "why": "A free city-hosted neighborhood day with games, music and giveaways at a local rec center.",
-   "urgency": "Safe to wait",
-   "source": "https://www.facebook.com/MayorMurielBowser/posts/community-event-in-washington-dc-this-saturday-10171-free-games-and-giveaways2-f/1719658596190766/",
-   "image": "",
-   "added": "2026-10-15",
-   "lat": 38.958,
-   "lng": -76.998,
-   "verified": ""
-  },
-  {
-   "id": "brookland-arts-walk-open-studios-2026-10-24",
-   "title": "Brookland Arts Walk Open Studios",
-   "start": "2026-10-24",
-   "end": "2026-10-24",
-   "time": "9 a.m.–4 p.m.",
-   "venue": "Brookland Arts Walk, Monroe Street Market (716 Monroe St NE)",
-   "area": "Brookland, DC",
-   "price": "Free",
-   "fit": [
-    "solo",
-    "family"
-   ],
-   "category": "Arts",
-   "why": "A Saturday stroll through 27 working artist studios selling ceramics and prints along a car-free promenade.",
-   "urgency": "Safe to wait",
-   "source": "https://marcellakriebel.com/pages/events",
-   "image": "https://cdn.shopify.com/s/files/1/0940/4364/files/marcella_kriebel_logo.png?height=628&pad_color=ffffff&v=1614317202&width=1200",
-   "added": "2026-10-22",
-   "lat": 38.933,
-   "lng": -76.995,
-   "verified": ""
-  },
-  {
-   "id": "fall-harvest-family-days-at-george-washingtons-mount-vernon-2026",
-   "title": "Fall Harvest Family Days at George Washington's Mount Vernon",
-   "start": "2026-10-24",
-   "end": "2026-10-25",
-   "time": "9:30 a.m.–4:30 p.m.",
-   "venue": "George Washington's Mount Vernon (3200 Mount Vernon Memorial Hwy)",
-   "area": "Mount Vernon, VA",
-   "price": "Included with admission ($28 adults; under 5 free)",
-   "fit": [
-    "family"
-   ],
-   "category": "Festival",
-   "why": "Colonial harvest demonstrations, a straw bale maze and wagon rides on the estate's lawns above the Potomac.",
-   "urgency": "Decide this week",
-   "source": "https://www.mountvernon.org/plan-your-visit/calendar/events/fall-harvest-festival",
-   "image": "https://mtv-main-assets.mountvernon.org/files/styles/event_header/s3/2024-07/mdp-20180614-rs-016.jpg.webp?VersionId=WVg2C3bIsSlSgsrV_8XkXzMelISCpCVu&h=38c8858f&itok=-cMb861F",
-   "added": "2026-10-11",
-   "lat": 38.708,
-   "lng": -77.086,
-   "verified": ""
-  },
-  {
-   "id": "the-great-baltimore-lantern-parade-and-dia-de-los-muertos-festival-2026",
-   "title": "The Great Baltimore Lantern Parade & Día de los Muertos Festival",
-   "start": "2026-10-24",
-   "end": "2026-10-24",
-   "time": "Festival 4 p.m.; parade at dusk (about 7 p.m.)",
-   "venue": "Patterson Park (2601 E Baltimore St)",
-   "area": "Baltimore, MD",
-   "price": "Free",
-   "fit": [
-    "family",
-    "friends"
-   ],
-   "category": "Festival",
-   "why": "Thousands of handmade glowing lanterns, giant puppets and marching bands wind through Patterson Park in Baltimore's signature community parade.",
-   "urgency": "Safe to wait",
-   "source": "https://creativealliance.org/event/the-great-baltimore-lantern-parade/",
-   "image": "https://creativealliance.org/wp-content/uploads/2026/04/2026_Lantern_Parade_SocialsFB-Ad-1x1_OCT_2026.png",
-   "added": "2026-10-11",
-   "lat": 39.29,
-   "lng": -76.581,
-   "verified": ""
-  },
-  {
-   "id": "hill-o-ween-at-eastern-market-2026",
-   "title": "Hill-O-Ween at Eastern Market",
-   "start": "2026-10-30",
-   "end": "2026-10-30",
-   "time": "4–6 p.m.",
-   "venue": "Eastern Market (225 7th St SE)",
-   "area": "Capitol Hill, DC",
-   "price": "Free",
-   "fit": [
-    "family",
-    "friends",
-    "couples"
-   ],
-   "category": "Holiday",
-   "why": "Capitol Hill's long-running Halloween street party, with merchant trick-or-treating, costumes and face painting on a closed-off block.",
-   "urgency": "Safe to wait",
-   "source": "https://www.hilloweendc.com/",
-   "image": "https://static.wixstatic.com/media/69bd05_fec4f2baf07c4a7499490639acb0b321~mv2.gif",
-   "added": "2026-10-22",
-   "lat": 38.886,
-   "lng": -76.996,
-   "verified": ""
-  },
-  {
-   "id": "dia-de-los-muertos-at-the-national-museum-of-the-american-indian-2026",
-   "title": "Día de los Muertos at the National Museum of the American Indian",
-   "start": "2026-10-31",
-   "end": "2026-10-31",
-   "time": "10 a.m.–5 p.m.",
-   "venue": "Smithsonian National Museum of the American Indian (4th St & Independence Ave SW)",
-   "area": "National Mall, DC",
-   "price": "Free",
-   "fit": [
-    "family",
-    "friends",
-    "solo"
-   ],
-   "category": "Museum",
-   "why": "Folk dance performances, marigold-covered ofrendas, mask-making and music inside a warm Smithsonian museum on the Mall.",
-   "urgency": "Safe to wait",
-   "source": "https://www.si.edu/events/native-american-heritage-month?trumbaEmbed=view%3Devent%26eventid%3D177067947",
-   "image": "",
-   "added": "2026-10-29",
-   "lat": 38.888,
-   "lng": -77.016,
-   "verified": ""
-  },
-  {
-   "id": "six-the-musical-broadway-tour-2026",
-   "title": "SIX the Musical (Broadway Tour)",
-   "start": "2026-10-31",
-   "end": "2026-10-31",
-   "time": "2 p.m. and 8 p.m.",
-   "venue": "Hippodrome Theatre (12 N Eutaw St)",
-   "area": "Baltimore, MD",
-   "price": "Ticketed",
-   "fit": [
-    "couples",
-    "friends"
-   ],
-   "category": "Theater",
-   "why": "The high-energy pop musical retelling the story of Henry VIII's six wives, on tour at Baltimore's historic Hippodrome.",
-   "urgency": "Book now",
-   "source": "https://baltimore.broadway.com/shows/six/",
-   "image": "",
-   "added": "2026-10-11",
-   "lat": 39.29,
-   "lng": -76.621,
-   "verified": ""
-  },
-  {
-   "id": "takoma-park-monster-bash-2026",
-   "title": "Takoma Park Monster Bash",
-   "start": "2026-10-31",
-   "end": "2026-10-31",
-   "time": "1–4 p.m.",
-   "venue": "Takoma Park Middle School (7611 Piney Branch Rd) to Carroll Ave",
-   "area": "Takoma Park, MD",
-   "price": "Free",
-   "fit": [
-    "family",
-    "friends",
-    "solo"
-   ],
-   "category": "Holiday",
-   "why": "The city's annual costume parade and festival, with a DJ, games and trick-or-treating along Carroll Avenue.",
-   "urgency": "Safe to wait",
-   "source": "https://takomaparkmd.gov/370/Monster-Bash",
-   "image": "https://takomaparkmd.gov/ImageRepository/Document?documentId=7229",
-   "added": "2026-10-22",
-   "lat": 38.984,
-   "lng": -77.006,
-   "verified": ""
-  },
-  {
-   "id": "celebracion-dia-de-los-muertos-at-the-wharf-2026",
-   "title": "Celebración Día de los Muertos at The Wharf",
-   "start": "2026-11-01",
-   "end": "2026-11-01",
-   "time": "3–6 p.m.",
-   "venue": "The Wharf (760 Maine Ave SW)",
-   "area": "Southwest Waterfront, DC",
-   "price": "Free",
-   "fit": [
-    "family",
-    "friends",
-    "couples"
-   ],
-   "category": "Festival",
-   "why": "A waterfront Day of the Dead celebration with mariachi, sugar skull decorating, face painting and an evening lantern procession.",
-   "urgency": "Safe to wait",
-   "source": "https://www.wharfdc.com/diadelosmuertos/",
-   "image": "https://d2rpxk5ykr73gq.cloudfront.net/media/filer_public/a8/52/a8524e39-e769-42a9-a12a-74853cf30ace/_96a9510.jpg?width=1200",
-   "added": "2026-10-15",
-   "lat": 38.879,
-   "lng": -77.024,
-   "verified": ""
-  },
-  {
-   "id": "wheaton-halloween-eye-spy-train-and-carousel-2026",
-   "title": "Wheaton Halloween Eye Spy Train & Carousel",
-   "start": "2026-11-01",
-   "end": "2026-11-01",
-   "time": "9:30 a.m.–4:30 p.m.",
-   "venue": "Wheaton Regional Park (2002 Shorefield Rd)",
-   "area": "Wheaton, MD",
-   "price": "$6 train; $9 train and carousel",
-   "fit": [
-    "family"
-   ],
-   "category": "Kids",
-   "why": "Last day of the season for the miniature train's Halloween character hunt through the woods, plus the hand-painted carousel.",
-   "urgency": "Book now",
-   "source": "https://montgomeryparks.org/parks-and-trails/wheaton-regional-park/wheaton-miniature-train/",
-   "image": "https://montgomeryparks.org/wp-content/uploads/2021/10/WTC-Update-1920x1080-1.jpg",
-   "added": "2026-10-22",
-   "lat": 39.055,
-   "lng": -77.046,
-   "verified": ""
-  },
-  {
-   "id": "glen-echo-park-fall-afternoon-2026",
-   "title": "Glen Echo Park Fall Afternoon",
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "time": "Noon–4 p.m.",
-   "venue": "Glen Echo Park (7300 MacArthur Blvd)",
-   "area": "Glen Echo, MD",
-   "price": "Free",
-   "fit": [
-    "family",
-    "solo"
-   ],
-   "category": "Outdoors",
-   "why": "A historic arts park with Art Deco buildings, paved paths, open lawns and a playground, free to wander.",
-   "urgency": "Safe to wait",
-   "source": "https://glenechopark.org/",
-   "image": "https://glenechopark.org/sites/default/files/styles/banner/public/Events/Light%20Up%20the%20Holidays/SAS%20Homepage%20Banner_0.png?itok=PsnLPLQr",
-   "added": "2026-11-05",
-   "lat": 38.966,
-   "lng": -77.139,
-   "verified": ""
-  },
-  {
    "id": "meadowlark-winter-walk-of-lights-2026",
    "title": "Meadowlark Winter Walk of Lights",
    "start": "2026-11-11",
@@ -417,7 +22,7 @@
    "added": "2026-10-29",
    "lat": 38.937,
    "lng": -77.283,
-   "verified": ""
+   "verified": "2026-11-26"
   },
   {
    "id": "downtown-dc-holiday-market-2026",
@@ -441,13 +46,12 @@
    "added": "2026-10-29",
    "lat": 38.91,
    "lng": -77.043,
-   "verified": ""
+   "verified": "2026-11-26"
   },
   {
    "id": "handwork-contemporary-craft-at-the-renwick-gallery-2026",
    "title": "Handwork: Contemporary Craft at the Renwick Gallery",
    "start": "2026-11-13",
-   "end": "2026-11-13",
    "time": "Ongoing; daily 10 a.m.–5:30 p.m.",
    "venue": "Smithsonian American Art Museum's Renwick Gallery (1661 Pennsylvania Ave NW)",
    "area": "Downtown DC",
@@ -465,37 +69,15 @@
    "added": "2026-11-19",
    "lat": 38.899,
    "lng": -77.039,
-   "verified": ""
-  },
-  {
-   "id": "brookland-arts-walk-open-studios-2026-11-14",
-   "title": "Brookland Arts Walk Open Studios",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "time": "10 a.m.–4 p.m.",
-   "venue": "Brookland Arts Walk, Monroe Street Market (716 Monroe St NE)",
-   "area": "Brookland, DC",
-   "price": "Free",
-   "fit": [
-    "solo",
-    "family"
-   ],
-   "category": "Arts",
-   "why": "Browse 27 working artist studios and local prints and ceramics on an easy, car-free Saturday walk.",
-   "urgency": "Safe to wait",
-   "source": "https://www.brooklandartswalk.com/",
-   "image": "https://static1.squarespace.com/static/60a68a032bf0061633f9a13f/t/6408ecfbc72daf5648099ba5/1678306555417/Brookland+Arts+Walk+Logo.png?format=1500w",
-   "added": "2026-11-12",
-   "lat": 38.933,
-   "lng": -76.995,
-   "verified": ""
+   "verified": "2026-11-26",
+   "ongoing": true,
+   "recur": "Ongoing exhibition"
   },
   {
    "id": "takoma-park-farmers-market-2026",
    "title": "Takoma Park Farmers Market",
    "start": "2026-11-15",
-   "end": "2026-11-15",
-   "time": "10 a.m.–2 p.m.",
+   "time": "9 a.m.–1 p.m.",
    "venue": "Laurel Ave",
    "area": "Takoma Park, MD",
    "price": "Free",
@@ -506,12 +88,14 @@
    "category": "Market",
    "why": "A car-free street market with local produce, baked goods, warm cider and street musicians.",
    "urgency": "Safe to wait",
-   "source": "https://mainstreettakoma.org/takoma-park-farmers-market/",
+   "source": "https://takomaparkmarket.com/",
    "image": "https://takomaparkmarket.com/wp-content/uploads/2024/11/takoma-park-fm-main-banner.jpg",
    "added": "2026-11-12",
    "lat": 38.977,
    "lng": -77.012,
-   "verified": ""
+   "verified": "2026-11-26",
+   "ongoing": true,
+   "recur": "Sundays, year-round"
   },
   {
    "id": "garden-of-lights-at-brookside-gardens-2026",
@@ -534,7 +118,7 @@
    "added": "2026-11-19",
    "lat": 39.059,
    "lng": -77.036,
-   "verified": ""
+   "verified": "2026-11-26"
   },
   {
    "id": "zoolights-at-the-smithsonians-national-zoo-2026",
@@ -557,7 +141,7 @@
    "added": "2026-11-05",
    "lat": 38.93,
    "lng": -77.05,
-   "verified": ""
+   "verified": "2026-11-26"
   },
   {
    "id": "christmas-village-in-baltimore-2026",
@@ -581,54 +165,7 @@
    "added": "2026-11-19",
    "lat": 39.285,
    "lng": -76.613,
-   "verified": ""
-  },
-  {
-   "id": "j-a-m-christmas-vacation-santas-musical-spectacular-revue-2026",
-   "title": "J.A.M. Christmas Vacation: Santa's Musical Spectacular Revue",
-   "start": "2026-11-21",
-   "end": "2026-11-22",
-   "time": "Sat 8 p.m.; Sun 5–7 p.m.",
-   "venue": "Joe's Movement Emporium (3309 Bunker Hill Rd)",
-   "area": "Mount Rainier, MD",
-   "price": "$25–$35",
-   "fit": [
-    "family",
-    "couples",
-    "friends"
-   ],
-   "category": "Theater",
-   "why": "A high-energy holiday song-and-dance revue mixing Christmas classics with hits from across the decades in an intimate theater.",
-   "urgency": "Book now",
-   "source": "https://www.eventbrite.com/e/jam-christmas-vacation-santas-musical-spectacular-revue-tickets-1996646996916",
-   "image": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190299916%252F24919086055%252F1%252Foriginal.20260804-170154%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.521%26fp-y%3D0.36%26s%3D1b9530a49343d7060daf91a0ac4c2602&w=940&q=75",
-   "added": "2026-11-12",
-   "lat": 38.939,
-   "lng": -76.964,
-   "verified": ""
-  },
-  {
-   "id": "montgomery-county-thanksgiving-parade-2026",
-   "title": "Montgomery County Thanksgiving Parade",
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "time": "10 a.m.–noon",
-   "venue": "Downtown Silver Spring (Ellsworth Dr & Fenton St, along Georgia Ave)",
-   "area": "Silver Spring, MD",
-   "price": "Free",
-   "fit": [
-    "family",
-    "friends"
-   ],
-   "category": "Holiday",
-   "why": "The region's only Thanksgiving parade, with giant character balloons, marching bands, floats and Santa along wide sidewalks.",
-   "urgency": "Safe to wait",
-   "source": "https://silverspringdowntown.com/events/thanksgiving-parade",
-   "image": "https://img.ctykit.com/cdn/md-silver-spring/images/tr:w-1800/moco-thanksgiving-parade-logo-01.png",
-   "added": "2026-10-15",
-   "lat": 38.997,
-   "lng": -77.027,
-   "verified": ""
+   "verified": "2026-11-26"
   },
   {
    "id": "usbg-seasons-greenings-2026",
@@ -674,7 +211,7 @@
    "added": "2026-11-12",
    "lat": 38.873,
    "lng": -77.007,
-   "verified": ""
+   "verified": "2026-11-26"
   },
   {
    "id": "takoma-park-flea-and-art-market-2026",
@@ -697,13 +234,12 @@
    "added": "2026-11-26",
    "lat": 38.975,
    "lng": -77.018,
-   "verified": ""
+   "verified": "2026-11-26"
   },
   {
    "id": "wonderplace-nmah",
    "title": "Wegmans Wonderplace",
-   "start": "2026-11-28",
-   "end": "2026-11-29",
+   "start": "2026-11-26",
    "time": "10 a.m.–4 p.m.",
    "venue": "National Museum of American History",
    "area": "Downtown DC",
@@ -713,13 +249,15 @@
    ],
    "why": "Indoor early-childhood gallery for ages 0–6 with play kitchens and crawl space. Pairs with the Botanic Garden.",
    "urgency": "Safe to wait",
-   "source": "https://www.si.edu/events/detail?trumbaEmbed=view%3Devent%26eventid%3D179000617",
-   "verified": "",
+   "source": "https://americanhistory.si.edu/explore/exhibitions/wonderplace",
+   "verified": "2026-11-26",
    "added": "2026-11-26",
    "lat": 38.891,
    "lng": -77.03,
    "image": "https://www.si.edu/sites/default/files/exhibitions/nmah-wonderplace.jpg",
-   "category": "Kids"
+   "category": "Kids",
+   "ongoing": true,
+   "recur": "Wednesday to Sunday"
   },
   {
    "id": "annapolis-grand-illumination-2026",
@@ -737,8 +275,8 @@
    ],
    "why": "Live music, ornament making and Santa's arrival at the harborfront tree lighting. Wraps before bedtime.",
    "urgency": "Safe to wait",
-   "source": "https://www.annapolis.gov/Calendar.aspx?EID=11303&month=12&year=2026&day=3&calType=0",
-   "verified": "",
+   "source": "https://www.visitannapolis.org/events/holiday/",
+   "verified": "2026-11-26",
    "added": "2026-11-26",
    "lat": 38.977,
    "lng": -76.487,
@@ -766,7 +304,7 @@
    "added": "2026-11-26",
    "lat": 39.298,
    "lng": -76.616,
-   "verified": ""
+   "verified": "2026-11-26"
   },
   {
    "id": "national-christmas-tree-and-pathway-of-peace-2026",
@@ -789,7 +327,7 @@
    "added": "2026-11-19",
    "lat": 38.894,
    "lng": -77.036,
-   "verified": ""
+   "verified": "2026-11-26"
   },
   {
    "id": "heurich-christmas-markt-2026",
@@ -837,14 +375,14 @@
    "added": "2026-11-26",
    "lat": 38.939,
    "lng": -76.964,
-   "verified": ""
+   "verified": "2026-11-26"
   },
   {
    "id": "alexandria-scottish-christmas-walk-parade-and-holiday-boat-parade-of-lights-2026",
    "title": "Alexandria Scottish Christmas Walk Parade & Holiday Boat Parade of Lights",
    "start": "2026-12-05",
    "end": "2026-12-05",
-   "time": "Walk 10:30 a.m.–12:30 p.m.; boat parade 5:30 p.m.",
+   "time": "Walk 10:30 a.m.–12:30 p.m.; boat parade at dusk",
    "venue": "Old Town Alexandria",
    "area": "Alexandria, VA",
    "price": "Free",
@@ -860,7 +398,7 @@
    "added": "2026-11-19",
    "lat": 38.805,
    "lng": -77.044,
-   "verified": ""
+   "verified": "2026-11-26"
   },
   {
    "id": "the-wharf-holiday-boat-parade-and-party-2026",
@@ -884,7 +422,7 @@
    "added": "2026-11-19",
    "lat": 38.879,
    "lng": -77.024,
-   "verified": ""
+   "verified": "2026-11-26"
   },
   {
    "id": "yalda-bazar-2026",
@@ -932,7 +470,7 @@
    "added": "2026-11-26",
    "lat": 38.975,
    "lng": -76.484,
-   "verified": ""
+   "verified": "2026-11-26"
   }
  ]
 }
