@@ -57,7 +57,7 @@ function renderWeekend(){
 }
 function renderDays(){
   const up=upcoming(); const starts=d=>up.filter(e=>e.start===d||(d===TODAY&&e.start<TODAY)).length; let h=`<button class="day any ${!st.day?"on":""}" data-day="">Any<br>day</button>`;
-  for(let n=0;n<42;n++){const d=addDays(TODAY,n),dt=D(d),c=up.filter(e=>onDay(e,d)).length,sc=starts(d);
+  for(let n=0;n<14;n++){const d=addDays(TODAY,n),dt=D(d),c=up.filter(e=>onDay(e,d)).length,sc=starts(d);
     h+=`<button class="day ${st.day===d?"on":""} ${[0,6].includes(dt.getDay())?"we":""} ${dt.getDate()===1||n===0?"mstart":""}" data-day="${d}" ${c?"":"disabled"}>
      <small>${n===0?"Today":dt.toLocaleDateString("en-US",{weekday:"short"})}</small><b>${dt.getDate()}</b><em>${dt.getDate()===1||n===0?dt.toLocaleDateString("en-US",{month:"short"}):""}</em><span class="dots">${"•".repeat(Math.min(sc,4))}</span></button>`}
   $("#days").innerHTML=h;
@@ -73,9 +73,10 @@ function group(list){
   const [a,b]=weekendRange(),nextWk=addDays(b,7),g=new Map();
   for(const e of list){
     const s=e.start<TODAY?TODAY:e.start;
-    const k=e.start<TODAY?"On now":s<=b?"This weekend":s<=nextWk?"Next week":D(s).toLocaleDateString("en-US",{month:"long",year:"numeric"});
+    const k=e.ongoing?"Ongoing":e.start<TODAY?"On now":s<=b?"This weekend":s<=nextWk?"Next week":D(s).toLocaleDateString("en-US",{month:"long",year:"numeric"});
     if(!g.has(k))g.set(k,[]);g.get(k).push(e);
   }
+  if(g.has("Ongoing")){const o=g.get("Ongoing");g.delete("Ongoing");g.set("Ongoing",o)}
   return g;
 }
 function renderList(){
