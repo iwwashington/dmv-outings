@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "events": [
   {
    "id": "meadowlark-winter-walk-of-lights-2026",
@@ -471,6 +471,194 @@
    "lat": 38.975,
    "lng": -76.484,
    "verified": "2026-11-26"
+  },
+  {
+   "id": "from-these-lands-nmnh",
+   "title": "From These Lands at the Natural History Museum",
+   "start": "2026-06-01",
+   "ongoing": true,
+   "recur": "On view through 2029",
+   "venue": "National Museum of Natural History, second floor (10th St and Constitution Ave NW)",
+   "area": "National Mall",
+   "price": "Free",
+   "fit": [
+    "family",
+    "friends",
+    "solo"
+   ],
+   "category": "Museum",
+   "why": "More than 600 fossils, minerals and objects, at least one from every state, D.C. and five territories. A free, easy indoor pick for a cold day.",
+   "urgency": "Safe to wait",
+   "source": "https://naturalhistory.si.edu/exhibits/these-lands-sharing-our-natural-and-cultural-heritage",
+   "lat": 38.8913,
+   "lng": -77.0261,
+   "time": "",
+   "image": "",
+   "added": "2026-11-27",
+   "verified": "2026-11-27"
+  },
+  {
+   "id": "a-christmas-carol-fords-theatre-2026",
+   "title": "A Christmas Carol at Ford's Theatre",
+   "start": "2026-11-19",
+   "end": "2026-12-31",
+   "venue": "Ford's Theatre (511 10th St NW)",
+   "area": "Downtown DC",
+   "price": "Tickets on Ford's site; ages 5+",
+   "fit": [
+    "family",
+    "couples",
+    "friends"
+   ],
+   "category": "Theater",
+   "why": "Ford's yearly Dickens staging, about two hours, in the historic theater. Best for kids 5 and up.",
+   "urgency": "Book now",
+   "source": "https://fords.org/performance/a-christmas-carol-2026/",
+   "image": "https://fords.org/wp-content/uploads/2026/04/acc-2026-2880x1400-1-1024x498.jpg",
+   "lat": 38.8967,
+   "lng": -77.0258,
+   "time": "",
+   "added": "2026-11-27",
+   "verified": "2026-11-27"
+  },
+  {
+   "id": "grinch-musical-imagination-stage-2026",
+   "title": "Dr. Seuss' How The Grinch Stole Christmas! The Musical",
+   "start": "2026-11-21",
+   "end": "2027-01-03",
+   "venue": "Imagination Stage, Lerner Family Theatre (4908 Auburn Ave)",
+   "area": "Bethesda, MD",
+   "price": "From $16; dynamic pricing",
+   "fit": [
+    "family"
+   ],
+   "category": "Theater",
+   "why": "An 85-minute musical made for young audiences, at Bethesda's children's theater. Popular dates price up as they fill.",
+   "urgency": "Book now",
+   "source": "https://imaginationstage.org/?p=17771",
+   "lat": 38.9886,
+   "lng": -77.096,
+   "time": "",
+   "image": "",
+   "added": "2026-11-27",
+   "verified": "2026-11-27"
+  },
+  {
+   "id": "nga-sculpture-garden-ice-rink-2026",
+   "title": "National Gallery Sculpture Garden Ice Rink",
+   "start": "2026-11-23",
+   "end": "2027-03-07",
+   "venue": "National Gallery of Art Sculpture Garden (7th St and Constitution Ave NW)",
+   "area": "National Mall",
+   "price": "$15; $12 kids 12 and under and 60+; skates $7",
+   "fit": [
+    "family",
+    "couples",
+    "friends",
+    "solo"
+   ],
+   "category": "Outdoors",
+   "why": "Outdoor skating among the sculptures on the Mall, in back-to-back 45-minute sessions. Open into the evening, weather permitting.",
+   "urgency": "Safe to wait",
+   "source": "https://www.nga.gov/press/ice-rink-2026",
+   "lat": 38.8913,
+   "lng": -77.023,
+   "time": "",
+   "image": "",
+   "added": "2026-11-27",
+   "verified": "2026-11-27"
+  },
+  {
+   "id": "christmas-illuminations-mount-vernon-2026",
+   "title": "Christmas Illuminations at Mount Vernon",
+   "start": "2026-12-19",
+   "end": "2026-12-20",
+   "time": "5:30–8:30 p.m.; fireworks about 8 p.m.",
+   "venue": "George Washington's Mount Vernon (3200 Mount Vernon Memorial Hwy)",
+   "area": "Mount Vernon, VA",
+   "price": "$58 adults; $36 ages 6–11; 5 and under free",
+   "fit": [
+    "family",
+    "couples"
+   ],
+   "category": "Holiday",
+   "why": "Two evenings only: the estate lit up for the season with a fireworks show over the mansion to finish.",
+   "urgency": "Book now",
+   "source": "https://www.mountvernon.org:443/plan-your-visit/calendar/events/christmas-illuminations-at-mount-vernon",
+   "image": "https://mtv-main-assets.mountvernon.org/files/styles/event_header/s3/2024-11/MDP_20191221_BS-016.jpg.webp?VersionId=unj7rteKCSCjD3nZPhacAOTESs8B5VJE&itok=OYKktt-p",
+   "lat": 38.7293,
+   "lng": -77.1073,
+   "added": "2026-11-27",
+   "verified": "2026-11-27"
+  },
+  {
+   "id": "wake-up-brother-bear-imagination-stage-2027",
+   "title": "Wake Up, Brother Bear!",
+   "start": "2027-01-16",
+   "end": "2027-02-21",
+   "venue": "Imagination Stage, Reeve Theatre (4908 Auburn Ave)",
+   "area": "Bethesda, MD",
+   "price": "From $16; $5 lap pass under 1 (box office)",
+   "fit": [
+    "family"
+   ],
+   "category": "Kids",
+   "why": "A show built for ages 1 to 4, where kids sit on the floor up close and join in. A good first theater outing.",
+   "urgency": "Safe to wait",
+   "source": "https://imaginationstage.org/on-our-stages/wake-up-brother-bear",
+   "lat": 38.9886,
+   "lng": -77.096,
+   "time": "",
+   "image": "",
+   "added": "2026-11-27",
+   "verified": "2026-11-27"
+  },
+  {
+   "id": "washington-auto-show-2027",
+   "title": "Washington Auto Show",
+   "start": "2027-01-22",
+   "end": "2027-01-31",
+   "venue": "Walter E. Washington Convention Center (801 Allen Y. Lew Pl NW)",
+   "area": "Downtown DC",
+   "price": "$15 weekdays, $20 weekends; $7 ages 6–12; 5 and under free",
+   "fit": [
+    "family",
+    "friends",
+    "solo"
+   ],
+   "category": "Festival",
+   "why": "The region's big new-car show, a full day indoors. Weekday hours are noon to 8 p.m., and floor entry closes an hour before closing.",
+   "urgency": "Safe to wait",
+   "source": "https://washingtonautoshow.com/show-information",
+   "lat": 38.9046,
+   "lng": -77.0228,
+   "time": "",
+   "image": "",
+   "added": "2026-11-27",
+   "verified": "2026-11-27"
+  },
+  {
+   "id": "monster-jam-capital-one-arena-2027",
+   "title": "Monster Jam",
+   "start": "2027-01-30",
+   "end": "2027-01-31",
+   "venue": "Capital One Arena (601 F St NW)",
+   "area": "Downtown DC",
+   "price": "Tickets via Ticketmaster",
+   "fit": [
+    "family",
+    "friends"
+   ],
+   "category": "Kids",
+   "why": "Monster trucks competing in speed and skill events indoors. Shows Saturday at 1 and 7 p.m. and Sunday at 1 p.m. It gets loud, so bring ear protection for little ones.",
+   "urgency": "Safe to wait",
+   "source": "https://www.capitalonearena.com/events/detail/monster-jam-0127",
+   "image": "https://www.capitalonearena.com/assets/img/MonsterJam-2027-Web-590x380-e0340c708b.jpg",
+   "lat": 38.8981,
+   "lng": -77.0209,
+   "time": "",
+   "added": "2026-11-27",
+   "verified": "2026-11-27"
   }
  ]
 }
