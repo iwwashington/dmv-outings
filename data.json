@@ -1067,7 +1067,7 @@
    "lng": -77.252,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Thursday to Sunday"
+   "recur": "Year-round"
   },
   {
    "id": "us-national-arboretum",
@@ -1092,7 +1092,7 @@
    "lng": -76.966,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Daily"
+   "recur": "Year-round"
   },
   {
    "id": "kenilworth-aquatic-gardens",
@@ -1117,7 +1117,7 @@
    "lng": -76.943,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Daily"
+   "recur": "Year-round"
   },
   {
    "id": "planet-word-museum",
@@ -1142,7 +1142,7 @@
    "lng": -77.03,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Closed Tuesdays"
+   "recur": "Year-round"
   },
   {
    "id": "library-of-congress-jefferson-building",
@@ -1167,7 +1167,7 @@
    "lng": -77.005,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Tuesday to Saturday"
+   "recur": "Year-round"
   },
   {
    "id": "nmaahc",
@@ -1192,7 +1192,7 @@
    "lng": -77.033,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Daily"
+   "recur": "Year-round"
   },
   {
    "id": "hillwood-estate",
@@ -1217,7 +1217,7 @@
    "lng": -77.054,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Tuesday to Sunday"
+   "recur": "Year-round"
   },
   {
    "id": "dumbarton-oaks",
@@ -1241,7 +1241,7 @@
    "lng": -77.063,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Tuesday to Sunday"
+   "recur": "Year-round"
   },
   {
    "id": "phillips-collection",
@@ -1266,7 +1266,7 @@
    "lng": -77.047,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Tuesday to Sunday"
+   "recur": "Year-round"
   },
   {
    "id": "building-stories-national-building-museum",
@@ -1289,7 +1289,7 @@
    "lng": -77.017,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Thursday to Monday"
+   "recur": "Year-round"
   },
   {
    "id": "eastern-market-weekend",
@@ -1314,7 +1314,7 @@
    "lng": -76.996,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Every weekend"
+   "recur": "Year-round"
   },
   {
    "id": "old-town-alexandria-farmers-market",
@@ -1338,7 +1338,7 @@
    "lng": -77.043,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Every Saturday"
+   "recur": "Year-round"
   },
   {
    "id": "torpedo-factory-art-center",
@@ -1363,7 +1363,7 @@
    "lng": -77.04,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Daily"
+   "recur": "Year-round"
   },
   {
    "id": "friday-jazz-night-westminster",
@@ -1388,7 +1388,7 @@
    "lng": -77.016,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Every Friday"
+   "recur": "Year-round"
   },
   {
    "id": "dc-improv-standup",
@@ -1412,7 +1412,7 @@
    "lng": -77.041,
    "verified": "2026-11-27",
    "ongoing": true,
-   "recur": "Most nights"
+   "recur": "Year-round"
   }
  ]
 }
