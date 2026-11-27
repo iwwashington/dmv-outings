@@ -55,6 +55,8 @@ a{color:inherit}
 .chip{white-space:nowrap;padding:6px 13px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:13px;font-weight:500}
 .chip.on{background:var(--blue);border-color:var(--blue);color:#fff}
 #cats .chip.on{background:var(--ink);border-color:var(--ink)}
+.jump .chip{background:transparent;font-weight:600}
+.jump[hidden]{display:none}
 
 /* list */
 main{padding-top:10px;padding-bottom:20px}

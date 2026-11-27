@@ -82,8 +82,12 @@ function group(list){
 function renderList(){
   const list=upcoming().filter(match).sort((x,y)=>(x.start<TODAY?TODAY:x.start).localeCompare(y.start<TODAY?TODAY:y.start)||x.title.localeCompare(y.title));
   $("#empty").hidden=list.length>0;
-  if(st.view==="map"){$("#list").innerHTML="";drawMap(list);return}
-  $("#list").innerHTML=[...group(list)].map(([k,v])=>`<h2 class="grp">${esc(k)}<span>${v.length}</span></h2><div class="grid">${v.map(e=>card(e)).join("")}</div>`).join("");
+  if(st.view==="map"){$("#list").innerHTML="";$("#jump").hidden=true;drawMap(list);return}
+  const gs=[...group(list)],slug=k=>"g-"+k.toLowerCase().replace(/\W+/g,"-");
+  const short=k=>/^\w+ \d{4}$/.test(k)?k.slice(0,3):k;
+  $("#jump").innerHTML=gs.length>1?gs.map(([k])=>`<button class="chip" data-jump="${slug(k)}">${esc(short(k))}</button>`).join(""):"";
+  $("#jump").hidden=gs.length<2;
+  $("#list").innerHTML=gs.map(([k,v])=>`<h2 class="grp" id="${slug(k)}">${esc(k)}<span>${v.length}</span></h2><div class="grid">${v.map(e=>card(e)).join("")}</div>`).join("");
 }
 function renderArchive(){
   const p=past().filter(e=>!st.saved||saved.has(e.id));
@@ -130,6 +134,7 @@ function sheet(id){
 }
 const close=()=>{$("#sheet").hidden=true;document.body.classList.remove("lock")};
 document.addEventListener("click",ev=>{
+  const j=ev.target.closest("[data-jump]");if(j){const g=document.getElementById(j.dataset.jump);if(g)window.scrollTo({top:g.getBoundingClientRect().top+scrollY-$("#bar").offsetHeight-10,behavior:"smooth"});return}
   const t=ev.target.closest("[data-save],[data-day],[data-k],[data-view],[data-ics],[data-open],[data-close],.ev");if(!t)return;
   if(t.dataset.save){const k=t.dataset.save;saved.has(k)?saved.delete(k):saved.add(k);localStorage.setItem(SAVE,JSON.stringify([...saved]));renderWeekend();render();if(!$("#sheet").hidden)sheet(k);return}
   if(t.dataset.day!==undefined){st.day=t.dataset.day||null;render();$("#list").scrollIntoView({behavior:"smooth",block:"start"});return}
